@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Game from './game.jsx';
 
 const Connect4 = () => {
   return (
     <div>
-      Connect4
       <Link to="/">Home</Link>
+      <Game />
     </div>
   )
 }
